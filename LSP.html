@@ -1,0 +1,281 @@
+﻿<html lang="en"><head><meta charset="utf-8"><title>Social Work Portfolio</title><style>:root { --bg-900: #0d1117; --bg-800: #161b22; --bg-700: #1e242c; --text-100: #e6edf3; --text-200: #c9d1d9; --text-muted: #8b949e; --accent: #58a6ff; --accent-hover: #1f6feb; --border: #30363d; --shadow-sm: 0 1px 2px rgba(0,0,0,0.3); --shadow-md: 0 4px 12px rgba(0,0,0,0.35); }
+html { color-scheme: dark; }
+body { font-family: Inter, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; margin: 0px; padding: 0px; background-color: var(--bg-900); color: var(--text-200); line-height: 1.6; }
+a { color: var(--accent); text-decoration: none; transition: color 0.15s; }
+a:hover { color: var(--accent-hover); }
+h1, h2, h3, h4, h5 { color: var(--text-100); line-height: 1.3; }
+header { background: var(--bg-900); border-bottom: 1px solid var(--border); padding: 32px 20px 40px; text-align: center; box-shadow: var(--shadow-sm); }
+header h1 { font-size: 2.75rem; margin: 0px; }
+header h2 { font-size: 1.25rem; font-weight: 400; color: var(--text-muted); margin: 6px 0px 12px; }
+header p { margin: 4px 0px; font-size: 0.95rem; color: var(--text-muted); }
+.headshot { width: 160px; height: 160px; border-radius: 50%; border: 3px solid var(--border); margin-bottom: 18px; object-fit: cover; }
+.bio { max-width: 680px; margin: 24px auto 0px; background: var(--bg-800); border: 1px solid var(--border); border-radius: 8px; padding: 20px 24px; box-shadow: var(--shadow-sm); }
+nav#toc { background: var(--bg-800); border-bottom: 1px solid var(--border); padding: 18px 0px 10px; box-shadow: var(--shadow-sm); }
+nav#toc h3 { margin: 0px 0px 12px; font-size: 1.1rem; color: var(--text-100); text-align: center; }
+nav#toc ul { list-style: none; padding: 0px; margin: 0px; display: flex; justify-content: center; flex-wrap: wrap; gap: 16px; }
+nav#toc li a { font-weight: 600; color: var(--accent); padding: 6px 12px; border-radius: 6px; transition: background 0.15s, color 0.15s; }
+nav#toc li a:hover { background: var(--accent); color: rgb(255, 255, 255); }
+main { width: min(92%, 1100px); margin: 32px auto; background: var(--bg-800); border: 1px solid var(--border); border-radius: 10px; padding: 30px 40px; box-shadow: var(--shadow-md); }
+section { margin-bottom: 48px; }
+section:last-child { margin-bottom: 0px; }
+section h2 { font-size: 1.75rem; border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 24px; }
+article { margin-bottom: 32px; }
+article:last-child { margin-bottom: 0px; }
+article h3 { font-size: 1.25rem; color: var(--accent); margin-bottom: 8px; }
+article h4 { font-size: 1.1rem; color: var(--text-100); margin: 14px 0px 6px; }
+ul, ol { padding-left: 24px; }
+table { width: 100%; border-collapse: collapse; font-size: 0.95rem; margin-top: 14px; }
+table, th, td { border: 1px solid var(--border); }
+th, td { padding: 10px 12px; }
+th { background: var(--bg-700); color: var(--text-100); font-weight: 600; }
+tr:nth-child(2n) { background: var(--bg-900); }
+footer { text-align: center; padding: 28px 20px 40px; background: var(--bg-900); border-top: 1px solid var(--border); font-size: 0.9rem; color: var(--text-muted); }
+footer a { color: var(--accent); }
+pre { background: var(--bg-900); border: 1px solid var(--border); border-radius: 8px; padding: 18px 20px; overflow-x: auto; font-size: 0.9rem; line-height: 1.55; box-shadow: var(--shadow-sm); }
+code { font-family: "JetBrains Mono", Consolas, "Courier New", monospace; color: var(--code-text); }
+.rem { color: var(--text-muted); }
+.command { color: var(--accent); }
+.variable { color: var(--code-variable); }
+@media (max-width: 768px) {
+  header h1 { font-size: 2rem; }
+  header h2 { font-size: 1rem; }
+  main { padding: 22px 20px; }
+  section h2 { font-size: 1.5rem; }
+}
+@media print {
+  .pdf-break { break-before: page; }
+}
+</style></head><body><div id="printable-area" contenteditable="true">
+        <header id="header">
+            <!-- Optional: Placeholder for Headshot -->
+            <!-- <img src="assets/images/your_headshot.jpg" alt="Professional Headshot" class="headshot"> -->
+            <h1>Social Work Portfolio</h1>
+            <h2>Leah Yates, BSW Candidate (Expected May 2025)</h2>
+            <p>Contact: Yatesl4@unlv.nevada.edu|&nbsp;</p>
+            <p>LinkedIn: <a href="[Your LinkedIn URL]" target="_blank">www.linkedin.com/in/leah-yates-536004355</a></p>
+            <div class="bio">
+                <h3>Professional Bio</h3>
+                <p>Hi! I'm Leah Yates. A bachelor of Social Work student at the University of Nevada, Las Vegas, graduating in May 2025. Throughout my academic journey, I've remained passionate about macro social work, with a focus on community empowerment, systems change, and social justice. My field experience at Skills 4 Kids and Serenity Mental Health have strengthened my understanding of case management and&nbsp; mental health services, while also motivating me to work towards improving current current policies that impact people's lives. I'm especially interested in advocating for equitable resources, developing community-based programs,&nbsp; and shaping policies that support long-term change. This portfolio should highlight the work I've done and the foundation I've built as I prepare for a career dedicated to creating a meaningful impact.&nbsp;</p>
+            </div>
+            <!-- Actions container - NOT editable -->
+            
+        </header>
+
+        <nav id="toc">
+            <h3>Table of Contents</h3>
+            <ul>
+                <li><a href="#introduction">Professional Introduction</a></li>
+                <li><a href="#education">Education &amp; Certifications</a></li>
+                <li><a href="#experience">Field Experience &amp; Practical Work</a></li>
+                <li><a href="#research">Research &amp; Academic Work</a></li>
+                <li><a href="#development">Professional Development &amp; Networking</a></li>
+                <li><a href="#volunteer">Volunteer Work &amp; Community Engagement</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="introduction">
+                <h2>📝 Professional Introduction</h2>
+                <article>
+                    <h3>Personal Mission Statement</h3>
+                    <p>
+                        <!-- Placeholder: 1-page statement on values, passion, goals -->
+                        [My mission as a future social worker is to challenge systemic barriers,&nbsp; Reflect on your core values, what drives your passion for social work, and your long-term professional goals within the field.]
+                    </p>
+                </article>
+                <article>
+                    <h3>Resume</h3>
+                    <p>
+                        <!-- Link to a downloadable PDF -->
+                        View my professional resume:&nbsp;<font color="#58a6ff">&lt;a href="https://drive.google.com/file/d/1vBhOe8WiVCntXln5cTomd6IJU9NMPo5l/view?usp=sharing" target="_blank"&gt;View My Resume&lt;/a&gt;</font></p>
+                </article>
+                <article>
+                    <h3>Cover Letter Sample</h3>
+                    <p>
+                        <!-- Link to a downloadable PDF -->
+                        View a sample cover letter: <a href="assets/documents/cover_letter_placeholder.pdf" target="_blank" download="">Download Cover Letter (PDF)</a>
+                        <!-- Remember to replace 'assets/documents/cover_letter_placeholder.pdf' with the actual path to your sample cover letter -->
+                    </p>
+                </article>
+            </section>
+
+            <section id="education">
+                <h2>🎓 Education &amp; Certifications</h2>
+                <article>
+                    <h3>Academic Qualifications</h3>
+                    <ul>
+                        <li>
+                            <strong>[Your Degree Name, e.g., Bachelor of Social Work (BSW)]</strong> - [University Name], [City, State]
+                            <br>Expected Graduation: [Date] / Graduated: [Date]
+                            <br><em>Relevant Coursework: [List a few key courses]</em>
+                            <br><em>GPA: [Optional: Add if strong]</em>
+                        </li>
+                        <!-- Add other degrees if applicable -->
+                    </ul>
+                </article>
+                <article>
+                    <h3>Certifications &amp; Training</h3>
+                    <!-- Placeholder: Simple chart or list -->
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Training/Certification</th>
+                                <th>Issuing Organization</th>
+                                <th>Date Completed</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>[e.g., Trauma-Informed Care Fundamentals]</td>
+                                <td>[e.g., Institute Name]</td>
+                                <td>[e.g., MM/YYYY]</td>
+                            </tr>
+                            <tr>
+                                <td>[e.g., Crisis Intervention Training]</td>
+                                <td>[e.g., Agency Name]</td>
+                                <td>[e.g., MM/YYYY]</td>
+                            </tr>
+                            <!-- Add more rows as needed -->
+                        </tbody>
+                    </table>
+                    <p><em>(Add links to digital certificates if available)</em></p>
+                </article>
+            </section>
+
+            <section id="experience">
+                <h2>🏥 Field Experience &amp; Practical Work</h2>
+                <p><em>(Minimum 1 Artifact Required)</em></p>
+                <article>
+                    <h3>[Internship/Placement Role Title] - [Organization Name]</h3>
+                    <p><em>[Start Date] - [End Date]</em></p>
+                    <p>
+                        <!-- Description of role and responsibilities -->
+                        [Briefly describe the organization and your key responsibilities during your field placement or internship.]
+                    </p>
+                    <h4>Artifacts &amp; Reflections:</h4>
+                    <ul>
+                        <li>
+                            <strong>[Artifact Title, e.g., Midterm Evaluation]</strong>
+                            <p><em>Reflection:</em> [Explain what this artifact demonstrates and what you learned from the experience related to it. E.g., "This evaluation highlights my growth in client engagement skills..."]</p>
+                            <!-- Optional: Link to a de-identified PDF/document -->
+                            <!-- <a href="assets/documents/artifact1.pdf" target="_blank">View Artifact</a> -->
+                        </li>
+                        <li>
+                            <strong>[Artifact Title, e.g., Anonymized Case Study]</strong>
+                            <p><em>Reflection:</em> [Explain the context of the case study (anonymized), the interventions used, and the key takeaways regarding social work practice.]</p>
+                        </li>
+                         <li>
+                            <strong>[Artifact Title, e.g., De-identified Process Recording]</strong>
+                            <p><em>Reflection:</em> [Discuss the interaction documented, the skills you practiced (e.g., active listening, empathy), and areas for future development identified through this recording.]</p>
+                        </li>
+                        <!-- Add more artifacts as needed -->
+                    </ul>
+                </article>
+                <!-- Add more field experiences if applicable -->
+            </section>
+            <div class="pdf-break"></div>
+
+            <section id="research">
+                <h2>📚 Research &amp; Academic Work</h2>
+                <p><em>(Minimum 1 Artifact Required)</em></p>
+                <article>
+                    <h3>[Project/Paper Title]</h3>
+                    <p><em>Course: [Course Name/Number] | Date: [Date Completed]</em></p>
+                    <p>
+                        <!-- Abstract or brief description -->
+                        [Provide a brief summary or abstract of your research paper, policy brief, or academic project. Highlight the key findings or arguments.]
+                    </p>
+                    <h4>Artifact:</h4>
+                    <p>
+                       [e.g., Research Paper on Social Justice Issue]
+                       <!-- Optional: Link to PDF -->
+                       <!-- <a href="assets/documents/research_paper.pdf" target="_blank">View Full Paper</a> -->
+                    </p>
+                     <p><em>Reflection:</em> [Explain the significance of this work, the research methods used (if applicable), and how it connects to your social work interests.]</p>
+                </article>
+                 <article>
+                    <h3>[Advocacy Project/Ethical Dilemma Title]</h3>
+                     <p><em>Context: [e.g., Community Organizing Initiative / Class Assignment] | Date: [Date]</em></p>
+                     <p>
+                         [Describe the advocacy work undertaken or the ethical dilemma faced. Explain the situation, your role/perspective, and the actions taken or the resolution process.]
+                     </p>
+                     <h4>Artifact/Evidence:</h4>
+                     <p>
+                         [e.g., Policy Brief, Presentation Slides, Reflective Essay]
+                         <!-- Optional: Link or description -->
+                     </p>
+                     <p><em>Reflection:</em> [Discuss what you learned about advocacy, ethical decision-making, social work values, or systems change through this experience.]</p>
+                 </article>
+                <!-- Add more research/academic work items -->
+            </section>
+
+            <section id="development">
+                <h2>🤝 Professional Development &amp; Networking</h2>
+                <article>
+                    <h3>Letters of Recommendation</h3>
+                    <p>Letters of recommendation are available upon request from:</p>
+                    <ul>
+                        <li>[Recommender 1 Name], [Title], [Organization]</li>
+                        <li>[Recommender 2 Name], [Title], [Organization]</li>
+                        <li>[Recommender 3 Name], [Title], [Organization]</li>
+                    </ul>
+                     <p><em>(Consider adding contact info if permitted by recommenders, or state "Contact information available upon request.")</em></p>
+                </article>
+                <article>
+                    <h3>Conference Attendance, Trainings &amp; Presentations</h3>
+                     <ul>
+                        <li>
+                            <strong>[Event Name, e.g., NASW National Conference]</strong>
+                            <br><em>Date:</em> [Date Attended]
+                            <br><em>Purpose:</em> [e.g., To learn about emerging trends in clinical social work.]
+                            <br><em>Notes/Reflections:</em> [Briefly summarize key takeaways or how the event contributed to your professional growth. No more than 1 page if detailed notes are kept separately.]
+                        </li>
+                         <li>
+                            <strong>[Training Name, e.g., Advanced Motivational Interviewing Workshop]</strong>
+                            <br><em>Date:</em> [Date Completed]
+                            <br><em>Purpose:</em> [e.g., To enhance client communication skills.]
+                            <br><em>Notes/Reflections:</em> [Key skills learned, application to practice.]
+                        </li>
+                        <!-- Add more items as needed -->
+                     </ul>
+                </article>
+            </section>
+
+            <section id="volunteer">
+                <h2>📢 Volunteer Work &amp; Community Engagement</h2>
+                <p><em>(Minimum 1 Artifact Required)</em></p>
+                <article>
+                    <h3>[Volunteer Role] - [Organization Name]</h3>
+                    <p><em>[Start Date] - [End Date/Present]</em></p>
+                    <p>
+                        <!-- Description of volunteer role and impact -->
+                        [Describe the organization's mission, your specific volunteer responsibilities, and any notable contributions or impact you made.]
+                    </p>
+                    <h4>Artifact/Evidence:</h4>
+                     <p>
+                         [e.g., Certificate of Appreciation, Project Flyer, Testimonial (with permission)]
+                         <!-- Optional: Link or image -->
+                     </p>
+                     <p><em>Reflection:</em> [What did you learn from this volunteer experience? How did it connect with social work values or inform your understanding of community needs?]</p>
+                </article>
+                <!-- Add more volunteer experiences -->
+            </section>
+
+        </main>
+    </div><script>(function(){
+  function saveUpdatedCopy(){
+    const blob=new Blob(['\ufeff',document.documentElement.outerHTML],{type:'text/html;charset=utf-8'});
+    const a=document.createElement('a');
+    a.href=URL.createObjectURL(blob);
+    a.download='Social_Work_Portfolio_edited.html';
+    a.style.display='none';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
+  const btn=document.createElement('button');
+  btn.textContent='Save Edited Copy';
+  btn.style.cssText='position:fixed;bottom:20px;right:20px;padding:8px 14px;z-index:99999;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;';
+  btn.addEventListener('click',saveUpdatedCopy);
+  document.addEventListener('DOMContentLoaded',function(){document.body.appendChild(btn);});
+})();</script><button style="position: fixed; bottom: 20px; right: 20px; padding: 8px 14px; z-index: 99999; background: rgb(0, 123, 255); color: rgb(255, 255, 255); border: none; border-radius: 4px; cursor: pointer;">Save Edited Copy</button><button style="position: fixed; bottom: 20px; right: 20px; padding: 8px 14px; z-index: 99999; background: rgb(0, 123, 255); color: rgb(255, 255, 255); border: none; border-radius: 4px; cursor: pointer;">Save Edited Copy</button><button style="position: fixed; bottom: 20px; right: 20px; padding: 8px 14px; z-index: 99999; background: rgb(0, 123, 255); color: rgb(255, 255, 255); border: none; border-radius: 4px; cursor: pointer;">Save Edited Copy</button><button style="position: fixed; bottom: 20px; right: 20px; padding: 8px 14px; z-index: 99999; background: rgb(0, 123, 255); color: rgb(255, 255, 255); border: none; border-radius: 4px; cursor: pointer;">Save Edited Copy</button></body></html>
